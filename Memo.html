@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="Memo.css" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css"
+      rel="stylesheet"
+    />
+    <title>나의 조각</title>
+  </head>
+  <body class="flex">
+    <div class="container flex">
+      <nav class="selectMenu flex">
+        <ul class="flex">
+          <li class="menuMemo">나의 조각</li>
+          <li class="menuSecret">비밀 조각</li>
+        </ul>
+      </nav>
+      <section id="myMemo">
+        <h1 class="myTitle">나의 조각</h1>
+        <textarea
+          class="memoContent"
+          name="content"
+          placeholder="오늘은 어떤 생각을 하고 있나요?"
+          cols="50"
+          rows="6"
+        ></textarea>
+        <button class="myStorage">저장</button>
+      </section>
+      <section class="memoList flex">
+        <ul class="memoGroup flex">
+         <li class="contentList">
+            내용을 담아보았습니다 왜냐하면 어떻게 나오는지 보기 위해서죠 저
+            개발자 될 수 있겠죠?
+            <div class="btns flex">
+              <button class="btn memoClear">지우기</button>
+              <button class="btn memoPutIn">담기</button>
+            </div>
+          </li>
+          <li class="contentList">
+            내용을 담아보았습니다 왜냐하면 어떻게 나오는지 보기 위해서죠 저
+            개발자 될 수 있겠죠?
+            <div class="btns flex">
+              <button class="btn memoClear">지우기</button>
+              <button class="btn memoPutIn">담기</button>
+            </div>
+          </li>
+          <li class="contentList">
+            내용을 담아보았습니다 왜냐하면 어떻게 나오는지 보기 위해서죠 저
+            개발자 될 수 있겠죠?
+            <div class="btns flex">
+              <button class="btn memoClear">지우기</button>
+              <button class="btn memoPutIn">담기</button>
+            </div>
+          </li>
+          <li class="contentList">
+            내용을 담아보았습니다 왜냐하면 어떻게 나오는지 보기 위해서죠 저
+            개발자 될 수 있겠죠?
+            <div class="btns flex">
+              <button class="btn memoClear">지우기</button>
+              <button class="btn memoPutIn">담기</button>
+            </div>
+          </li>
+          </li>
+        </ul>
+      </section>
+      <section id="mySecret">
+        <h1 class="secretTitle">비밀 조각</h1>
+        <p class="secretDefault">아직 담긴 조각이 없어요</p>
+      </section>
+    </div>
+  </body>
+</html>

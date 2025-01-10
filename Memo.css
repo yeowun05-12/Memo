@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle, #ffffff, #f5f1e1);
+  font-family: 'SUIT', 'SUIT Variable', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/*nav 수정*/
+
+.selectMenu {
+  width: 80vw;
+}
+
+.selectMenu ul {
+  width: 100vw;
+  height: 10vh;
+  gap: 30px;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+/*나의 조각 부분*/
+.myMemo {
+  width: 100vw;
+  height: 100vh;
+}
+
+.myTitle {
+  margin-bottom: 15px;
+}
+
+.memoContent {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+}
+
+.memoContent:focus {
+  transition: all 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /*부드러운 전환 효과*/
+  border: 2px solid rgb(239, 219, 181);
+  box-shadow: 5px 5px 5px rgba(189, 143, 98, 0.1);
+}
+
+.myStorage {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(75, 61, 52);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 10px;
+}
+
+/*메모 리스트*/
+
+.memoList {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: start;
+}
+
+.memoGroup {
+  width: 80vw;
+  height: 80vh;
+  justify-content: space-between;
+}
+
+.contentList {
+  width: 300px;
+  height: 300px;
+  gap: 30px;
+  background-color: #fff;
+  list-style-type: none;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(189, 143, 98, 0.1);
+}
+
+.contentList .btns {
+  width: 250px;
+  height: 50px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+  position: relative;
+  top: 150px;
+}
+
+.btns .btn {
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.mySecret {
+  width: 100vw;
+  height: 100vh;
+}
